@@ -1,9 +1,11 @@
 public class apples {
-    static int applesPete = 10; // яблоки пети
-    static int applesYasa; // яблоки васи
-    static int applesTotal = 15; // всего яблок
+
 
     public static void main(String[] args) {
+        int applesPete = 10; // яблоки пети
+        int applesYasa; // яблоки васи
+        int applesTotal = 15; // всего яблок
+
         applesYasa = calculate(applesPete, applesTotal);
         print(applesYasa);
     }
