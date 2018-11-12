@@ -245,9 +245,9 @@ public class taskTwo {
         for (int i = arr.length / 2; i < arr.length; i++) {
             sumarr2 = sumarr2 + arr[i];
         }
-        if (sumarr1 > sumarr2) System.out.println("Первая половина массива больше второй");
-        if (sumarr1 < sumarr2) System.out.println("Вторая половина массива больше первой");
-        if (sumarr1 == sumarr2) System.out.println("Половины массивов равны");
+        if (Math.abs(sumarr1) > Math.abs(sumarr2)) System.out.println("Модуль суммы первой половины массива больше второй");
+        if (Math.abs(sumarr1) < Math.abs(sumarr2)) System.out.println("Модуль суммы второй половины больше первой");
+        if (Math.abs(sumarr1) == Math.abs(sumarr2)) System.out.println("Модули сумм половин массива равны");
     }
 
     public static void eleven() {
